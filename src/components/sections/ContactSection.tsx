@@ -67,11 +67,11 @@ const ContactSection = () => {
                 <div className="space-y-4">
                   <div>
                     <h5 className="font-medium text-gray-800 text-lg">Segunda a Sexta</h5>
-                    <p className="text-gray-600">8:00 - 18:00</p>
+                    <p className="text-gray-600">8h30 - 18h</p>
                   </div>
                   <div>
                     <h5 className="font-medium text-gray-800 text-lg">Sábado</h5>
-                    <p className="text-gray-600">9:00 - 14:00</p>
+                    <p className="text-gray-600">8h30 - 12h30</p>
                   </div>
                   <div>
                     <h5 className="font-medium text-gray-800 text-lg">Domingo</h5>
