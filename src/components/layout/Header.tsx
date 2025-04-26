@@ -8,7 +8,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-white shadow-md w-full z-10">
+    <header className="bg-white shadow-md w-full z-50 fixed top-0 left-0">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <div className="flex items-center">
           {/* Logo placeholder - will be replaced with actual logo */}
