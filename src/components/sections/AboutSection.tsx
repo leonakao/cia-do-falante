@@ -13,7 +13,7 @@ const AboutSection = () => {
             <p className="text-gray-600 mb-6">
               A Cia do Falante é uma assistência técnica especializada em alto-falantes automotivos, profissionais e residenciais. 
               Há anos no mercado, nos dedicamos a oferecer serviços de reparo e manutenção de alta qualidade para as principais 
-              marcas do mercado, incluindo JBL, Selenium, Eros, Ultravox, Snake, Oversound, Bravos e Pioneer.
+              marcas do mercado, incluindo JBL, Selenium, Eros, Ultravox, Snake, Oversound, Bravox e Pioneer.
             </p>
             <p className="text-gray-600 mb-6">
               Nosso compromisso é proporcionar soluções rápidas e eficientes para restaurar o desempenho original dos seus 

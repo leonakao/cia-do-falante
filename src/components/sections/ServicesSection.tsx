@@ -58,7 +58,7 @@ const ServicesSection = () => {
     },
     {
       title: "Assistência Multi-Marcas",
-      description: "Atendemos as principais marcas do mercado: JBL, Selenium, Eros, Ultravox, Snake, Oversound, Bravos e Pioneer.",
+      description: "Atendemos as principais marcas do mercado: JBL, Selenium, Eros, Ultravox, Snake, Oversound, Bravox e Pioneer.",
       icon: (
         <div className="flex justify-center items-center h-16">
           <svg className="w-10 h-10 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ minWidth: '40px', minHeight: '40px', maxWidth: '40px', maxHeight: '40px' }}>
@@ -86,6 +86,17 @@ const ServicesSection = () => {
               <p className="text-gray-600">{service.description}</p>
             </div>
           ))}
+        </div>
+
+        <div className="mt-12 text-center">
+          <a 
+            href="https://wa.me/5514996251173?text=Olá%2C%20gostaria%20de%20solicitar%20um%20orçamento"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-8 rounded-lg transition-colors shadow-md"
+          >
+            Solicitar orçamento
+          </a>
         </div>
       </div>
     </section>
