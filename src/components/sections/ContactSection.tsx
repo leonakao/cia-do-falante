@@ -23,7 +23,7 @@ const ContactSection = () => {
                   </div>
                   <div className="ml-4">
                     <h4 className="text-lg font-medium text-gray-800">Nosso Endereço</h4>
-                    <p className="text-gray-600 mt-1">Av. das Caixas Acústicas, 123 - São Paulo, SP</p>
+                    <p className="text-gray-600 mt-1">Av. Nuno de Assis, 18-50 - Bauru, SP</p>
                   </div>
                 </div>
                 
@@ -35,7 +35,7 @@ const ContactSection = () => {
                   </div>
                   <div className="ml-4">
                     <h4 className="text-lg font-medium text-gray-800">Telefone</h4>
-                    <p className="text-gray-600 mt-1">(11) 9876-5432</p>
+                    <p className="text-gray-600 mt-1">(14) 99625-1173</p>
                   </div>
                 </div>
                 
@@ -47,7 +47,7 @@ const ContactSection = () => {
                   </div>
                   <div className="ml-4">
                     <h4 className="text-lg font-medium text-gray-800">Email</h4>
-                    <p className="text-gray-600 mt-1">contato@ciadofalante.com.br</p>
+                    <p className="text-gray-600 mt-1">ciadofalantebauru@outlook.com</p>
                   </div>
                 </div>
               </div>
