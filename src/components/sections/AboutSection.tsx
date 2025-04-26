@@ -1,5 +1,3 @@
-import React from 'react';
-
 const AboutSection = () => {
   return (
     <section id="about" className="w-full py-16 bg-gray-50">
@@ -41,7 +39,7 @@ const AboutSection = () => {
           
           <div className="rounded-lg overflow-hidden shadow-xl h-[400px] bg-gradient-to-br from-blue-500 to-blue-700 relative">
             <img 
-              src="/src/assets/images/hero-banner.jpg" 
+              src="/images/hero-banner.jpg" 
               alt="Oficina da Cia do Falante" 
               className="w-full h-full object-cover"
             />

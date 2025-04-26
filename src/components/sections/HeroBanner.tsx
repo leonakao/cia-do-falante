@@ -3,7 +3,7 @@ const HeroBanner = () => {
     <section className="w-full relative mb-8">
       <div className="w-full h-[400px] md:h-[500px] lg:h-[600px] bg-gradient-to-r from-blue-600 to-purple-600 relative">
       <img 
-        src="/src/assets/images/hero-banner.jpg" 
+        src="/images/hero-banner.jpg" 
         alt="Cia do Falante - Assistência Técnica para Alto-Falantes" 
         className="w-full h-[400px] md:h-[500px] lg:h-[600px] object-cover"
       />
