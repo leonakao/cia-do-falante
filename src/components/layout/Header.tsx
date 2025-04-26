@@ -15,7 +15,9 @@ const Header = () => {
           <div className="flex items-center">
             {/* Uncomment and update the src when you have the logo */}
             {/* <img src="/path/to/your/logo.svg" alt="Cia do Falante Logo" className="h-10 mr-3" /> */}
-            <h1 className="text-2xl font-bold text-blue-600">Cia do Falante</h1>
+            <h1 className="text-2xl font-bold">
+              <span className="text-red-600">Cia do</span> <span className="text-black">Falante</span>
+            </h1>
           </div>
         </div>
 
