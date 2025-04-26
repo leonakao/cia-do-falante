@@ -19,19 +19,20 @@ const HeroBanner = () => {
           </div>
         </div>
         
-        <div className="absolute top-1/3 left-1/4 transform -translate-x-1/2 -translate-y-1/2">
+        {/* Partner logos - hidden on mobile, visible on larger screens */}
+        <div className="hidden md:block absolute top-1/3 left-1/4 transform -translate-x-1/2 -translate-y-1/2">
           <img src="/images/partners/jbl.png" alt="JBL" className="w-32 h-32 object-contain" />
         </div>
-        <div className="absolute bottom-1/3 right-1/4 transform translate-x-1/2 translate-y-1/2">
+        <div className="hidden md:block absolute bottom-1/3 right-1/4 transform translate-x-1/2 translate-y-1/2">
           <img src="/images/partners/eros.png" alt="Eros" className="w-32 h-32 object-contain" />
         </div>
 
         <div className="absolute inset-0 flex items-center justify-center">
-          <div className="backdrop-blur-sm bg-black/40 py-8 px-16 rounded-lg">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white text-center">
+          <div className="backdrop-blur-sm bg-black/40 py-8 px-4 md:px-16 rounded-lg max-w-[90%] md:max-w-none">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white text-center">
               Cia do Falante
             </h1>
-            <p className="text-xl text-gray-200 text-center mt-4">
+            <p className="text-lg md:text-xl text-gray-200 text-center mt-4">
               Assistência Técnica Especializada em Alto-Falantes
             </p>
           </div>

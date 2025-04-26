@@ -49,9 +49,13 @@ const ContactSection = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                     </svg>
                   </div>
-                  <div className="ml-4">
+                  <div className="ml-4 max-w-[calc(100%-60px)]">
                     <h4 className="text-lg font-medium text-gray-800">Email</h4>
-                    <p className="text-gray-600 mt-1">ciadofalantebauru@outlook.com</p>
+                    <p className="text-gray-600 mt-1 text-sm md:text-base break-all">
+                      <a href="mailto:ciadofalantebauru@outlook.com" className="hover:text-blue-600 transition-colors">
+                        ciadofalantebauru@outlook.com
+                      </a>
+                    </p>
                   </div>
                 </div>
               </div>

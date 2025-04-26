@@ -21,18 +21,18 @@ const AboutSection = () => {
               garantir a satisfação total dos nossos clientes.
             </p>
             
-            <div className="grid grid-cols-3 gap-4 mt-8 text-center">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-8 text-center">
               <div className="bg-white p-4 rounded-lg shadow-md">
-                <h4 className="text-blue-600 text-3xl font-bold">1000+</h4>
-                <p className="text-gray-600">Clientes Atendidos</p>
+                <h4 className="text-blue-600 text-2xl md:text-3xl font-bold">1000+</h4>
+                <p className="text-gray-600 text-sm md:text-base">Clientes Atendidos</p>
               </div>
               <div className="bg-white p-4 rounded-lg shadow-md">
-                <h4 className="text-blue-600 text-3xl font-bold">8+</h4>
-                <p className="text-gray-600">Marcas Especializadas</p>
+                <h4 className="text-blue-600 text-2xl md:text-3xl font-bold">8+</h4>
+                <p className="text-gray-600 text-sm md:text-base">Marcas Especializadas</p>
               </div>
               <div className="bg-white p-4 rounded-lg shadow-md">
-                <h4 className="text-blue-600 text-3xl font-bold">100%</h4>
-                <p className="text-gray-600">Peças Originais</p>
+                <h4 className="text-blue-600 text-2xl md:text-3xl font-bold">100%</h4>
+                <p className="text-gray-600 text-sm md:text-base">Peças Originais</p>
               </div>
             </div>
           </div>
