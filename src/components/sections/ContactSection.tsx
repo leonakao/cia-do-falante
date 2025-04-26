@@ -34,8 +34,12 @@ const ContactSection = () => {
                     </svg>
                   </div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-medium text-gray-800">Telefone</h4>
-                    <p className="text-gray-600 mt-1">(14) 99625-1173</p>
+                    <h4 className="text-lg font-medium text-gray-800">WhatsApp</h4>
+                    <p className="text-gray-600 mt-1">
+                      <a href="https://wa.me/5514996251173?text=Ol%C3%A1%2C%20gostaria%20de%20algumas%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition-colors">
+                        (14) 99625-1173
+                      </a>
+                    </p>
                   </div>
                 </div>
                 
