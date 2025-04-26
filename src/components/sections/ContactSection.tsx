@@ -1,5 +1,3 @@
-import { useState } from 'react';
-
 const ContactSection = () => {
   return (
     <section id="contact" className="w-full py-16 bg-gray-50">

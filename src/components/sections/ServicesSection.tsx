@@ -87,15 +87,6 @@ const ServicesSection = () => {
             </div>
           ))}
         </div>
-
-        <div className="mt-12 text-center">
-          <a
-            href="#contact"
-            className="bg-blue-600 text-white hover:bg-blue-700 px-6 py-3 rounded-lg font-medium inline-block transition duration-300"
-          >
-            Solicite um Orçamento
-          </a>
-        </div>
       </div>
     </section>
   );
