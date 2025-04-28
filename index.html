@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" href="/favicon.ico" type="image/svg+xml" />
+    <meta name="theme-color" content="#1a1a2e">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=yes">
     <title>Cia do Falante - Reparo e Manutenção de Alto-Falantes</title>
     <meta name="description" content="Serviços especializados de reparo e manutenção para alto-falantes automotivos, profissionais e residenciais. Atendemos JBL, Selenium, Eros, Pioneer e outras marcas." />
     <meta name="keywords" content="reparo de alto-falantes, manutenção de alto-falantes, recondicionamento, JBL, Selenium, Eros, Pioneer, kits de reparo" />
@@ -25,6 +27,8 @@
     
     <!-- Canonical URL -->
     <link rel="canonical" href="https://www.ciadofalante.com.br/" />
+    <link rel="alternate" hreflang="pt-BR" href="https://www.ciadofalante.com.br/" />
+    <link rel="alternate" hreflang="x-default" href="https://www.ciadofalante.com.br/" />
     
     <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
@@ -46,7 +50,16 @@
       "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
+        "streetAddress": "Av. Nuno de Assis, 1850",
+        "addressLocality": "Bauru",
+        "addressRegion": "SP",
+        "postalCode": "17020-310",
         "addressCountry": "BR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -22.310940,
+        "longitude": -49.060942
       },
       "openingHoursSpecification": {
         "@type": "OpeningHoursSpecification",
@@ -60,6 +73,71 @@
         "opens": "09:00",
         "closes": "18:00"
       }
+    }
+    </script>
+    
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.ciadofalante.com.br/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Serviços",
+          "item": "https://www.ciadofalante.com.br/#services"
+        }
+      ]
+    }
+    </script>
+    
+    <!-- Services Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "Service",
+          "position": 1,
+          "name": "Reparo de Alto-Falantes",
+          "url": "https://www.ciadofalante.com.br/#services",
+          "description": "Serviços especializados de reparo para alto-falantes automotivos, profissionais e residenciais de diversas marcas.",
+          "provider": {
+            "@type": "LocalBusiness",
+            "name": "Cia do Falante"
+          }
+        },
+        {
+          "@type": "Service",
+          "position": 2,
+          "name": "Manutenção Preventiva",
+          "url": "https://www.ciadofalante.com.br/#services",
+          "description": "Serviços de manutenção preventiva para prolongar a vida útil dos seus equipamentos de som e evitar falhas.",
+          "provider": {
+            "@type": "LocalBusiness",
+            "name": "Cia do Falante"
+          }
+        },
+        {
+          "@type": "Service",
+          "position": 3,
+          "name": "Recondicionamento",
+          "url": "https://www.ciadofalante.com.br/#services",
+          "description": "Recondicionamento completo de alto-falantes com substituição de componentes e restauração das especificações originais.",
+          "provider": {
+            "@type": "LocalBusiness",
+            "name": "Cia do Falante"
+          }
+        }
+      ]
     }
     </script>
     
