@@ -3,7 +3,10 @@ const AboutSection = () => {
     <section id="about" className="w-full py-16 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Sobre Nós</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Sobre a Cia do Falante</h2>
+          <p className="text-gray-600 max-w-2xl mx-auto">
+            Especialistas em reparo e recondicionamento de alto-falantes em Bauru e região.
+          </p>
           <div className="w-24 h-1 bg-blue-600 mx-auto mt-4 mb-6"></div>
         </div>
 
@@ -40,7 +43,7 @@ const AboutSection = () => {
           <div className="rounded-lg overflow-hidden shadow-xl h-[400px] bg-gradient-to-br from-blue-500 to-blue-700 relative">
             <img 
               src="/images/hero-banner.jpg" 
-              alt="Oficina da Cia do Falante" 
+              alt="Oficina da Cia do Falante - Reparo de Alto-Falantes" 
               className="w-full h-full object-cover"
             />
           </div>

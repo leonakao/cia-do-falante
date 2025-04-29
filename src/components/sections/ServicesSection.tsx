@@ -2,7 +2,7 @@ const ServicesSection = () => {
   const services = [
     {
       title: "Reparo de Alto-Falantes",
-      description: "Serviços especializados de reparo para alto-falantes automotivos, profissionais e residenciais de diversas marcas.",
+      description: "Serviços especializados de reparo para alto-falantes automotivos, profissionais e residenciais de diversas marcas como JBL, Selenium, Eros e Pioneer.",
       icon: (
         <div className="flex justify-center items-center h-16">
           <svg className="w-10 h-10 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ minWidth: '40px', minHeight: '40px', maxWidth: '40px', maxHeight: '40px' }}>
@@ -13,7 +13,7 @@ const ServicesSection = () => {
     },
     {
       title: "Manutenção Preventiva",
-      description: "Serviços de manutenção preventiva para prolongar a vida útil dos seus equipamentos de som e evitar falhas.",
+      description: "Serviços de manutenção preventiva para prolongar a vida útil dos seus equipamentos de som e evitar falhas técnicas e problemas de áudio.",
       icon: (
         <div className="flex justify-center items-center h-16">
           <svg className="w-10 h-10 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ minWidth: '40px', minHeight: '40px', maxWidth: '40px', maxHeight: '40px' }}>
@@ -25,7 +25,7 @@ const ServicesSection = () => {
     },
     {
       title: "Recondicionamento",
-      description: "Recondicionamento completo de alto-falantes com substituição de componentes e restauração das especificações originais.",
+      description: "Recondicionamento completo de alto-falantes com substituição de componentes e restauração das especificações originais de fábrica.",
       icon: (
         <div className="flex justify-center items-center h-16">
           <svg className="w-10 h-10 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ minWidth: '40px', minHeight: '40px', maxWidth: '40px', maxHeight: '40px' }}>
@@ -36,7 +36,7 @@ const ServicesSection = () => {
     },
     {
       title: "Kits de Reparo",
-      description: "Fornecimento de kits completos e originais para reparo de alto-falantes de diversas marcas, incluindo JBL, Selenium e Pioneer.",
+      description: "Fornecimento de kits completos e originais para reparo de alto-falantes de diversas marcas, incluindo JBL, Selenium, Pioneer e outras marcas profissionais.",
       icon: (
         <div className="flex justify-center items-center h-16">
           <svg className="w-10 h-10 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ minWidth: '40px', minHeight: '40px', maxWidth: '40px', maxHeight: '40px' }}>
@@ -47,7 +47,7 @@ const ServicesSection = () => {
     },
     {
       title: "Diagnóstico Especializado",
-      description: "Avaliação técnica detalhada para identificar problemas em alto-falantes e sistemas de som com equipamentos de precisão.",
+      description: "Avaliação técnica detalhada para identificar problemas em alto-falantes e sistemas de som com equipamentos de precisão e profissionais experientes.",
       icon: (
         <div className="flex justify-center items-center h-16">
           <svg className="w-10 h-10 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ minWidth: '40px', minHeight: '40px', maxWidth: '40px', maxHeight: '40px' }}>
@@ -58,7 +58,7 @@ const ServicesSection = () => {
     },
     {
       title: "Assistência Multi-Marcas",
-      description: "Atendemos as principais marcas do mercado: JBL, Selenium, Eros, Ultravox, Snake, Oversound, Bravox e Pioneer.",
+      description: "Atendemos as principais marcas do mercado de áudio: JBL, Selenium, Eros, Ultravox, Snake, Oversound, Bravox e Pioneer com peças originais.",
       icon: (
         <div className="flex justify-center items-center h-16">
           <svg className="w-10 h-10 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ minWidth: '40px', minHeight: '40px', maxWidth: '40px', maxHeight: '40px' }}>
@@ -73,8 +73,11 @@ const ServicesSection = () => {
     <section id="services" className="w-full py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Nossos Serviços</h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">Oferecemos uma linha completa de serviços de reparo e manutenção para alto-falantes de diversas marcas e aplicações.</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Serviços de Reparo de Alto-Falantes</h2>
+          <p className="text-gray-600 max-w-2xl mx-auto">
+            Oferecemos uma linha completa de serviços de reparo e manutenção para alto-falantes de diversas marcas e aplicações, 
+            incluindo equipamentos automotivos, profissionais e residenciais.
+          </p>
           <div className="w-24 h-1 bg-blue-600 mx-auto mt-4"></div>
         </div>
 
